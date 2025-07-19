@@ -9,11 +9,11 @@ let backgroundImg, fallingObjectImg, catcherImg;
 
 /* PRELOAD LOADS FILES */
 function preload() {
-  backgroundImg = loadImage("assets/starsbackground.jpeg");
-  catcherImg = loadImage("assets/trashbinimage.png");
+  backgroundImg = loadImage("starsbackground.jpeg");
+  catcherImg = loadImage("trashbinimage.png");
 
-  fallingObjectImg = loadImage("assets/trashimage.png");
-  font = loadFont('assets/Audiowide-Regular.ttf');
+  fallingObjectImg = loadImage("trashimage.png");
+  font = loadFont('Audiowide-Regular.ttf');
 }
 
 /* SETUP RUNS ONCE */
